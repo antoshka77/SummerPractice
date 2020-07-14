@@ -1,0 +1,16 @@
+#include "menu.h"
+
+MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       IDM_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       IDM_EXIT
+    END
+    POPUP "&Mode"
+    BEGIN
+        MENUITEM "&Layout",                     IDM_LAYOUT
+        MENUITEM "&Default",                    IDM_DEFAULT, CHECKED
+    END
+END
